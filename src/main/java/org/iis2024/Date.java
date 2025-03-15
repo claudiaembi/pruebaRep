@@ -84,4 +84,13 @@ public class Date {
       return false;
     }
   }
+
+  /**
+   * Checks if the year of this date is a leap year.
+   *
+   * @return true if the year is a leap year, false otherwise.
+   */
+  public boolean isLeapYear() {
+    return (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
+  }
 }
