@@ -88,5 +88,14 @@ public class Date {
   public void printDate() {
     System.out.println(day + "/" + month + "/" + year);
   }
+  private String timeZone = "UTC"; // Zona horaria por defecto
+
+  public String getTimeZone() {
+    return timeZone;
+  }
+
+  public void setTimeZone(String timeZone) {
+    this.timeZone = timeZone;
+  }
 
 }
