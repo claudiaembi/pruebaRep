@@ -93,4 +93,11 @@ public class Date {
   public boolean isLeapYear() {
     return (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
   }
+
+  private final String dateFormat = "dd/MM/yyyy"; // Formato de fecha predeterminado
+
+  public String getDateFormat() {
+    return dateFormat;
+  }
+
 }
