@@ -98,4 +98,11 @@ public class Date {
     this.timeZone = timeZone;
   }
 
+  private final String dateFormat = "dd/MM/yyyy"; // Formato de fecha predeterminado
+
+  public String getDateFormat() {
+    return dateFormat;
+  }
+
+
 }
