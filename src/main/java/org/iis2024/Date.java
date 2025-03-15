@@ -85,29 +85,4 @@ public class Date {
     }
   }
 
-  /**
-   * Checks if the year of this date is a leap year.
-   *
-   * @return true if the year is a leap year, false otherwise.
-   */
-  public boolean isLeapYear() {
-    return (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
-  }
-
-  private final String dateFormat = "dd/MM/yyyy"; // Formato de fecha predeterminado
-
-  public String getDateFormat() {
-    return dateFormat;
-  }
-
-  private String timeZone = "UTC"; // Zona horaria por defecto
-
-  public String getTimeZone() {
-    return timeZone;
-  }
-
-  public void setTimeZone(String timeZone) {
-    this.timeZone = timeZone;
-  }
-
 }
