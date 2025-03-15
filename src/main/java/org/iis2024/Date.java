@@ -100,4 +100,14 @@ public class Date {
     return dateFormat;
   }
 
+  private String timeZone = "UTC"; // Zona horaria por defecto
+
+  public String getTimeZone() {
+    return timeZone;
+  }
+
+  public void setTimeZone(String timeZone) {
+    this.timeZone = timeZone;
+  }
+
 }
